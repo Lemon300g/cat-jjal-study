@@ -142,7 +142,7 @@
         });
         const [mainCat, setMainCat] = React.useState(CAT1);
 
-        const [favorites, setFevorite] = React.useState(() => {
+        const [favorites, setFavorites] = React.useState(() => {
           return jsonLocalStorage.getItem("favorites") || [];
         });
 
